@@ -9,7 +9,7 @@ class Dog
   @@all = []
 
   def initialize
-    self >> @@all
+    @@all << self
   end
 
   def self.all
